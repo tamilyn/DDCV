@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>DDCV by xtmgah</title>
+    <title>DDCV forked </title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -17,15 +17,15 @@
     <div class="wrapper">
       <header>
         <h1 class="header">DDCV</h1>
-        <p class="header">A Visualized Shiny App to Evaluate Drug-Drug Interaction</p>
+        <p class="header">A Visualized Shiny App to Evaluate Drug-Drug Interaction (FORKED)</p>
 
         <ul>
-          <li class="download"><a class="buttons" href="https://github.com/xtmgah/DDCV/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/xtmgah/DDCV/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/xtmgah/DDCV">View On GitHub</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/tamilyn/DDCV/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/tamilyn/DDCV/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/tamilyn/DDCV">View On GitHub</a></li>
         </ul>
 
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/xtmgah">xtmgah</a></p>
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/tamilyn">tamilyn</a></p>  
 
 
       </header>
@@ -39,7 +39,7 @@
 
 <p>Author: <a href="mailto:zhangt8@mail.nih.gov">Tongwu Zhang</a></p>
 
-<p>Website: <a href="http://xtmgah.github.io/DDCV/">http://xtmgah.github.io/DDCV/</a></p>
+<p>Website: <a href="http://tamilyn.github.io/DDCV/">http://tamilyn.github.io/DDCV/</a></p>
 
 <p>License: DDCV is freely available under a GNU Public License (Version 2)</p>
 
@@ -67,7 +67,7 @@
 <p>Both through "<em>git clone</em>" or directly download comparessed file are avaiable:</p>
 </blockquote>
 
-<div class="highlight highlight-bash"><pre>git clone <span class="pl-s1"><span class="pl-pds">"</span>https://github.com/xtmgah/DDCV.git<span class="pl-pds">"</span></span>
+<div class="highlight highlight-bash"><pre>git clone <span class="pl-s1"><span class="pl-pds">"</span>https://github.com/tamilyn/DDCV.git<span class="pl-pds">"</span></span>
 <span class="pl-s3">cd</span> DDCV</pre></div>
 
 <h2>
@@ -81,7 +81,7 @@
 
 <div class="highlight highlight-R"><pre>library(<span class="pl-vo">shiny</span>)
 options(<span class="pl-v">download.file.method</span><span class="pl-k">=</span><span class="pl-s1"><span class="pl-pds">"</span>wget<span class="pl-pds">"</span></span>,<span class="pl-v">download.file.extra</span><span class="pl-k">=</span><span class="pl-s1"><span class="pl-pds">"</span> --no-check-certificate<span class="pl-pds">"</span></span>)
-<span class="pl-e">shiny</span><span class="pl-k">::</span>runGitHub(<span class="pl-s1"><span class="pl-pds">'</span>DDCV<span class="pl-pds">'</span></span>,<span class="pl-s1"><span class="pl-pds">'</span>xtmgah<span class="pl-pds">'</span></span>)</pre></div>
+<span class="pl-e">shiny</span><span class="pl-k">::</span>runGitHub(<span class="pl-s1"><span class="pl-pds">'</span>DDCV<span class="pl-pds">'</span></span>,<span class="pl-s1"><span class="pl-pds">'</span>tamilyn<span class="pl-pds">'</span></span>)</pre></div>
 
 <blockquote>
 <p>or</p>
@@ -89,7 +89,7 @@ options(<span class="pl-v">download.file.method</span><span class="pl-k">=</span
 
 <div class="highlight highlight-R"><pre>library(<span class="pl-vo">shiny</span>)
 options(<span class="pl-v">download.file.method</span><span class="pl-k">=</span><span class="pl-s1"><span class="pl-pds">"</span>wget<span class="pl-pds">"</span></span>,<span class="pl-v">download.file.extra</span><span class="pl-k">=</span><span class="pl-s1"><span class="pl-pds">"</span> --no-check-certificate<span class="pl-pds">"</span></span>)
-runUrl(<span class="pl-s1"><span class="pl-pds">'</span>https://github.com/xtmgah/DDCV/archive/master.zip<span class="pl-pds">'</span></span>)</pre></div>
+runUrl(<span class="pl-s1"><span class="pl-pds">'</span>https://github.com/tamilyn/DDCV/archive/master.zip<span class="pl-pds">'</span></span>)</pre></div>
 
 <p><strong>Local running</strong></p>
 
@@ -565,7 +565,7 @@ source(<span class="pl-s1"><span class="pl-pds">"</span>DDCV.R<span class="pl-pd
 
 <p><strong>Parameter Panel</strong></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/panel.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/panel.png" alt="view"></p>
 
 <p><strong>IC50 Prediction</strong></p>
 
@@ -592,13 +592,13 @@ source(<span class="pl-s1"><span class="pl-pds">"</span>DDCV.R<span class="pl-pd
 
 <p><strong>Response Matrix Profile</strong></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/rmprofile.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/rmprofile.png" alt="view"></p>
 
 <p><strong>Median Effect</strong></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/meffect.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/meffect.png" alt="view"></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/meffect2.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/meffect2.png" alt="view"></p>
 
 <p><strong>Isobologram</strong></p>
 
@@ -606,7 +606,7 @@ source(<span class="pl-s1"><span class="pl-pds">"</span>DDCV.R<span class="pl-pd
 <p>Isobologram analysis has been used to make a graphical presentation of the interaction of two drugs. </p>
 </blockquote>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/isob.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/isob.png" alt="view"></p>
 
 <p><strong>Combination Index</strong></p>
 
@@ -683,9 +683,9 @@ source(<span class="pl-s1"><span class="pl-pds">"</span>DDCV.R<span class="pl-pd
 </tbody>
 </table>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/cindex.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/cindex.png" alt="view"></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/cindex2.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/cindex2.png" alt="view"></p>
 
 <p><strong>Curve-shift</strong></p>
 
@@ -693,9 +693,9 @@ source(<span class="pl-s1"><span class="pl-pds">"</span>DDCV.R<span class="pl-pd
 <p>Curve-shift analysis allows simultaneous presentation of the studied concentration-effect curves of single-agent and combination treatments in a single plot. </p>
 </blockquote>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/cshift.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/cshift.png" alt="view"></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/cshift2.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/cshift2.png" alt="view"></p>
 
 <p><strong>Universal Surface Response</strong></p>
 
@@ -703,13 +703,13 @@ source(<span class="pl-s1"><span class="pl-pds">"</span>DDCV.R<span class="pl-pd
 <p>Universal surface model approach provides a single value summarizing the nature of interaction for the totality of data on the combinations.</p>
 </blockquote>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/usr.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/usr.png" alt="view"></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/usr2.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/usr2.png" alt="view"></p>
 
 <p><strong>Loewe Additivity Contour</strong></p>
 
-<p><img src="https://raw.github.com/xtmgah/DDCV/master/doc/contour.png" alt="view"></p>
+<p><img src="https://raw.github.com/tamilyn/DDCV/master/doc/contour.png" alt="view"></p>
       </section>
       <footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
